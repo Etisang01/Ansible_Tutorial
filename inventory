@@ -1,3 +1,6 @@
-ubuntu@3.87.67.252
-ubuntu@44.203.158.147
-ubuntu@3.83.83.82
+[web_servers]
+ubuntu@44.203.88.48
+ubuntu@3.89.142.184
+
+[db_servers] 
+ubuntu@18.207.226.188

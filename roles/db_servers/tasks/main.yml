@@ -1,0 +1,23 @@
+- name: Install MariaDB on Ubuntu and update apt package cache
+  tags:
+    - DB
+    - MariaDB
+    - Ubuntu
+  become: yes
+  apt:
+    update_cache: yes
+
+- name: Install MariaDB server and client packages
+  become: yes
+  apt:
+    name:
+      - mariadb-server
+      - mariadb-client
+    state: present
+
+- name: Start and enable MariaDB service
+  become: yes
+  service:
+    name: mariadb
+    state: started
+    enabled: yes

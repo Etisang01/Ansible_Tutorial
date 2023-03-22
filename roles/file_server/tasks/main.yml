@@ -1,0 +1,5 @@
+- name: install 
+  tags:
+  package:
+    name:
+    state: latest

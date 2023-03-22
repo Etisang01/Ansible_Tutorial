@@ -1,0 +1,6 @@
+- name: add ssh key for allen
+  tags: always
+  authorized_key:
+    user: allen
+    key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCMNouBxXNl4o+Cpo6c3BKW0QN28pXIvC0Rrf8U18OE9HwFMRppBzPcAA672uKnB3D1i2B+sN6qHHjkZu7rSMc0oYHjJWCGLHLBPhd3cKP1UftW7CHpYPEbt6utA887Tz/HiSQzBZo/V1xCCdk/sfwEEbB20VX7uwZXa/nVstsiT+A9M2o4SFKOkRzuxCqHfNYa8DYBgLF2ueAleKflkVudvuikOvU4hUDkGyUp2hjAKQp1MgEmc5ZEDkzxGJ2mKAl8PNr6zyKW26t3BpHjTpBuL9+B1Q84k13FAuQ2gdzsNxBDATVVPLSezs1nLeuEjBscFHRqGHQwOKgWv23tmF/e6Ve1WaAYCmtcpLLgjdzmm3pG0WobAlY6dcKJmw1PzLXICkNiliiNoWYxwe/SJ7MwRGYYZr2y0PhDImXUeEnIZ/laf/H4u8i35R50EQo+6EkW0T3eDnZUAEdJuu/FI0qpDvFhUoueH5qgjEhs79YJtDW8w9A2hqxPB9HwGb1wYzM= allen@allens-pc>"
+
